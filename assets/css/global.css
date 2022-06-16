@@ -11,7 +11,7 @@
 /*===== VARIABLES CSS =====*/
 html {
     /* Colors */
-    --hue: 11;
+    --hue: 0;
 
     --brand: hsl(var(--hue), 100%, 60%);
     --brand-light: hsl(var(--hue), 100%, 94%);
@@ -22,9 +22,10 @@ html {
 
     --gray: hsl(var(--hue), 31%, 72%);
     --gray-dark: hsl(var(--hue), 21%, 38%);
+    --gray-dark-opaque: hsla(var(--hue), 21%, 38%, 0.2);
     --gray-light: hsl(var(--hue), 30%, 92%);
 
-    --black: hsl(calc(var(--hue) + 20), 72%, 18%);
+    --black: hsl(var(--hue), 72%, 18%);
     --red: hsl(350, 79%, 58%);
     --white: hsl(0, 0%, 98%);
 
@@ -94,6 +95,8 @@ button>img,
 .button>img {
     margin-right: 1rem;
     width: 2rem;
+    fill: #ff3333;
+    stroke: #ff3333;
 }
 
 button.outlined,
@@ -101,6 +104,18 @@ button.outlined,
     background: var(--white);
     color: var(--brand);
     border: 0.2rem solid var(--brand);
+}
+
+button.red,
+.button.red {
+    background: var(--red);
+    color: var(--background);
+}
+
+button.gray,
+.button.gray {
+    background: var(--gray-light);
+    color: var(--gray-dark);
 }
 
 .content header {

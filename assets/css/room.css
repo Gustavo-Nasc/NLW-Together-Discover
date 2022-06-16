@@ -83,3 +83,72 @@
     padding: 0.8rem 2.4rem;
     line-height: 2.4rem;
 }
+
+#questions .questions .question-wrapper {
+    width: 100%;
+    padding: 2.4rem 3.2rem 2.4rem 2.4rem;
+    background: var(--brand-light);
+    display: grid;
+    border-radius: 0 0.8rem 0.8rem 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+#questions .questions .question-wrapper .question-content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2.7rem;
+}
+
+#questions .questions .question-wrapper .question-content .user {
+    margin-right: 1.6rem;
+    background: var(--brand);
+    padding: 1.4rem;
+    clip-path: circle();
+    line-height: 0;
+}
+
+#questions .questions .question-wrapper .question-content p {
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    min-height: 5.2rem;
+}
+
+#questions .questions .question-wrapper .question-content .question {
+    color: var(--black);
+}
+
+#questions .questions .question-wrapper .actions {
+    justify-self: flex-end;
+    display: flex;
+    gap: 2.4rem;
+}
+
+
+#questions .questions .question-wrapper .actions .check,
+#questions .questions .question-wrapper .actions .delete {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    color: var(--gray-dark);
+    transition: filter 0.2s;
+}
+
+#questions .questions .question-wrapper .actions .check img,
+#questions .questions .question-wrapper .actions .delete img {
+    width: 2.4rem;
+}
+
+#questions .questions .question-wrapper .actions .check:hover,
+#questions .questions .question-wrapper .actions .delete:hover {
+    filter: brightness(0.7);
+}
+
+/*===== QUESTIONS READ =====*/
+#questions .questions .question-wrapper.read {
+    background: var(--gray-dark-opaque);
+}
+
+#questions .questions .question-wrapper.read .question-content .user {
+    background: var(--gray);
+}
