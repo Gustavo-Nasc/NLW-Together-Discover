@@ -10,7 +10,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-## <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="NodeJS" width="30" style="vertical-align:top"> NodeJS
+<h2 style="display: flex; align-items: center; gap: 8px">
+  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="NodeJS" width="27.5"> NodeJS
+</h2>
 
 - [NodeJS](https://nodejs.org/en/)
 - [EJS](https://ejs.co)
