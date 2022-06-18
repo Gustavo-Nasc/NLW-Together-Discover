@@ -1,0 +1,30 @@
+{
+  "name": "nlw-together---discover-(rocket.q)",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvivo para gerenciar perguntas anônimas de usuários direcionados ao dono da página",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/database/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo-Nasc/NLW-Together-Discover.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Nascimento Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gustavo-Nasc/NLW-Together-Discover/issues"
+  },
+  "homepage": "https://github.com/Gustavo-Nasc/NLW-Together-Discover#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
