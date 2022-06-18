@@ -10,9 +10,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-<h2 style="display: flex; align-items: center; gap: 8px">
-  <img src="https://dashboard.snapcraft.io/site_media/appmedia/2018/05/Artboard_4.png" alt="NodeJS" width="27.5" style="align-self: flex-end"> NodeJS
-</h2>
+## <img src="https://dashboard.snapcraft.io/site_media/appmedia/2018/05/Artboard_4.png" alt="NodeJS" width="22.5"> NodeJS
 
 - [NodeJS](https://nodejs.org/en/)
 - [EJS](https://ejs.co)
