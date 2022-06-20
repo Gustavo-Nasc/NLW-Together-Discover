@@ -40,6 +40,17 @@ input {
     padding: 0 1.6rem;
 }
 
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
 input,
 button,
 .button {

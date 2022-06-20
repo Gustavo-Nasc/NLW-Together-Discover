@@ -37,3 +37,14 @@ function handleClick(event, check = true) {
 
     modal.openModal()
 }
+
+const roomForm = document.querySelector('#questions-form form')
+const textareaRoomForm = document.querySelector('#questions-form form textarea')
+
+textareaRoomForm.addEventListener('change', () => {
+    if (textareaRoomForm.value == "") {
+        roomForm.style.border = "0.2rem solid var(--gray)"
+    } else {
+        roomForm.style.border = "0.2rem solid var(--brand)"
+    }
+})

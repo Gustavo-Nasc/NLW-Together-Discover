@@ -39,7 +39,7 @@
 .modal-wrapper .modal input {
     margin-bottom: 4rem;
     padding: 1.3rem 1.6rem;
-    border: 0.2rem solid var(--brand);
+    border: 0.1rem solid var(--black);
     width: min(30.2rem, 70%);
 }
 
