@@ -48,3 +48,14 @@ textareaRoomForm.addEventListener('change', () => {
         roomForm.style.border = "0.2rem solid var(--brand)"
     }
 })
+
+let buttonCopy = document.querySelector('#room-id button')
+
+buttonCopy.addEventListener('click', () => {
+    const roomId = document.querySelector('input.room-id')
+
+    roomId.select()
+    document.execCommand('copy')
+
+    alert(`ID da sala copiado com sucesso! (${roomId.value})`)
+})

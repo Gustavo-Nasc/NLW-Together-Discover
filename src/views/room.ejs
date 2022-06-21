@@ -39,7 +39,10 @@
             <div class="buttons">
                 <div class="button outlined" id="room-id" data-id="<%= roomId %>">
                     #<%= roomId %>
-                    <img src="../assets/img/copy.svg" alt="Copiar Código da Sala">
+                    <input type="text" value="<%= roomId %>" class="sr-only room-id">
+                    <button>
+                        <img src="../assets/img/copy.svg" alt="Copiar Código da Sala">
+                    </button>
                 </div>
                 <a href="/create-room" class="button">
                     <img src="../assets/img/users-white.svg" alt="Criar nova Sala">

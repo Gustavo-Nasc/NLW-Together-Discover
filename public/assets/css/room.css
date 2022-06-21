@@ -180,3 +180,17 @@
     margin-top: 1.3rem;
     line-height: 1.9rem;
 }
+
+#room header .buttons .button:nth-child(1) {
+    padding: 1.3rem 0 1.3rem 1.6rem;
+    cursor: default;
+}
+
+#room header .buttons .button:nth-child(1):hover {
+    filter: brightness(1.0);
+}
+
+#room header .buttons .button:nth-child(1) button {
+    margin: 0 0 0 1rem;
+    padding: 0;
+}
