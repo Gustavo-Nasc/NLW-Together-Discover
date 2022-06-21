@@ -1,11 +1,12 @@
 {
   "name": "nlw-together---discover-(rocket.q)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Projeto desenvolvivo para gerenciar perguntas anônimas de usuários direcionados ao dono da página",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon .",
-    "init-db": "node src/database/init.js"
+    "init-db": "node src/database/init.js",
+    "clear-db": "node src/database/clear.js"
   },
   "repository": {
     "type": "git",
