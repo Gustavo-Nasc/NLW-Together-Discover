@@ -56,9 +56,20 @@ module.exports = {
         res.render('room', { roomId: roomId, questions: questions, questionsRead: questionsRead, isNoQuestions: isNoQuestions })
     },
 
-    enter(req, res) {
+    async enter(req, res) {
+        const db = await Database()
+
         const roomId = req.body.roomId
 
-        res.redirect(`/room/${roomId}`)
+        //Verifica se o ID criado já existe
+        const verifyRoom = await db.get(`SELECT id FROM rooms WHERE id = ${roomId}`)
+
+        if (verifyRoom != undefined) {
+            res.redirect(`/room/${roomId}`)
+        } else {
+            res.render('roomNotExist')
+        }
+
+        await db.close()
     }
 }
