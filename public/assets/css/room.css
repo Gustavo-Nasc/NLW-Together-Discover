@@ -194,3 +194,16 @@
     margin: 0 0 0 1rem;
     padding: 0;
 }
+
+@media screen and (max-width: 555px) {
+    #room header {
+        display: grid;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #room header>a {
+        display: grid;
+        place-items: center;
+    }
+}
