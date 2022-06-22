@@ -1,7 +1,7 @@
 const express = require('express')
 const route = require('./route')
 const path = require('path')
-const { Server } = require('tls')
+const http = require('http')
 
 const app = express()
 
@@ -14,4 +14,8 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(route)
 
-app.listen(3000, () => console.log("Servidor iniciado e funcionando!"))
+app.set('port', process.env.PORT || 3000)
+
+http.createServer(app).listen(app.get('port'), () => {
+    console.log(`Servidor rodando na porta ${app.get('port')}`)
+})
