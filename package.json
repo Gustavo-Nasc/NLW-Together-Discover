@@ -4,7 +4,7 @@
   "description": "Projeto desenvolvivo para gerenciar perguntas anônimas de usuários direcionados ao dono da página",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "node .",
     "init-db": "node src/database/init.js",
     "clear-db": "node src/database/clear.js"
   },
