@@ -1,7 +1,7 @@
 # Rocket.q
 
 <div align="center">
-  <img alt="Rocket.Q" src="./.github/front-cover.png" width="80%">
+  <img alt="Rocket.Q" src="./.github/preview.png" width="80%">
 </div>
 
 ## 🚀 Tecnologias

@@ -1,6 +1,6 @@
 {
   "name": "nlw-together---discover-(rocket.q)",
-  "version": "1.0.7.1",
+  "version": "1.0.7.2",
   "description": "Projeto desenvolvivo para gerenciar perguntas anônimas de usuários direcionados ao dono da página",
   "main": "src/server.js",
   "scripts": {
